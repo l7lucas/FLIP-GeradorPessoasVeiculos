@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Windows10\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.8.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Windows10\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)headlesschromium.puppeteer.lambda.dotnet\1.1.0.82\contentFiles\any\netstandard2.1\al2.tar.br" Condition="Exists('$(NuGetPackageRoot)headlesschromium.puppeteer.lambda.dotnet\1.1.0.82\contentFiles\any\netstandard2.1\al2.tar.br')">
+      <NuGetPackageId>HeadlessChromium.Puppeteer.Lambda.Dotnet</NuGetPackageId>
+      <NuGetPackageVersion>1.1.0.82</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>al2.tar.br</TargetPath>
+      <Private>True</Private>
+      <Link>al2.tar.br</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)headlesschromium.puppeteer.lambda.dotnet\1.1.0.82\contentFiles\any\netstandard2.1\al2023.tar.br" Condition="Exists('$(NuGetPackageRoot)headlesschromium.puppeteer.lambda.dotnet\1.1.0.82\contentFiles\any\netstandard2.1\al2023.tar.br')">
+      <NuGetPackageId>HeadlessChromium.Puppeteer.Lambda.Dotnet</NuGetPackageId>
+      <NuGetPackageVersion>1.1.0.82</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>al2023.tar.br</TargetPath>
+      <Private>True</Private>
+      <Link>al2023.tar.br</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)headlesschromium.puppeteer.lambda.dotnet\1.1.0.82\contentFiles\any\netstandard2.1\chromium.br" Condition="Exists('$(NuGetPackageRoot)headlesschromium.puppeteer.lambda.dotnet\1.1.0.82\contentFiles\any\netstandard2.1\chromium.br')">
+      <NuGetPackageId>HeadlessChromium.Puppeteer.Lambda.Dotnet</NuGetPackageId>
+      <NuGetPackageVersion>1.1.0.82</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>chromium.br</TargetPath>
+      <Private>True</Private>
+      <Link>chromium.br</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)headlesschromium.puppeteer.lambda.dotnet\1.1.0.82\contentFiles\any\netstandard2.1\swiftshader.tar.br" Condition="Exists('$(NuGetPackageRoot)headlesschromium.puppeteer.lambda.dotnet\1.1.0.82\contentFiles\any\netstandard2.1\swiftshader.tar.br')">
+      <NuGetPackageId>HeadlessChromium.Puppeteer.Lambda.Dotnet</NuGetPackageId>
+      <NuGetPackageVersion>1.1.0.82</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>swiftshader.tar.br</TargetPath>
+      <Private>True</Private>
+      <Link>swiftshader.tar.br</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nunit\4.1.0\build\NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit\4.1.0\build\NUnit.props')" />
+  </ImportGroup>
+</Project>
